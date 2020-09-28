@@ -86,6 +86,18 @@ thead tr:first-child th:first-child{
   border-radius: 10px;
 }
 
+thead tr:first-child th:last-child{
+  border-radius:10px;
+}
+
+tbody tr:last-child th:first-child{
+  border-radius:10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-radius:10px;
+}
+
 footer{
   min-height: 75px;
   position: fixed;
