@@ -13,7 +13,7 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background-image: url("pigeon-background.JPEG"); 
+  background-image: url("../images/pigeon-background.JPEG"); 
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
@@ -66,16 +66,16 @@ td{
   padding: 10px; border-top: 2px solid #000000;
 }
 
-tr:hover{
-  background-color: rgba(126, 8, 32, .25);
-}
-
 tr:nth-child(even){
   background-color: #d1d1d1
 }
 
 tr:nth-child(odd){
   background-color: transparent
+}
+
+tr:hover{
+  background-color: rgba(126, 8, 32, .25);
 }
 
 *:focus{
