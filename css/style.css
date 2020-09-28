@@ -44,6 +44,7 @@ a{
 table{
     border: 2px solid #000000; 
     border-radius: 10px;
+    position: center;
 }
 
 
@@ -65,7 +66,7 @@ td{
   padding: 10px; border-top: 2px solid #000000;
 }
 
-tbody tr:hover{
+tr:hover{
   background-color: rgba(126, 8, 32, .25);
 }
 
